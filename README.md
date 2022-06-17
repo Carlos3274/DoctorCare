@@ -27,7 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS3
 - JavaScript ES6+
 
-Bibliotecas
+Bibliotecas:
 
 - [Google Fonts](https://fonts.google.com/)
 - [ScrollReveal](https://scrollrevealjs.org)
