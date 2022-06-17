@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5
 - CSS3
-- JavaScript E6+
+- JavaScript ES6+
 
 Bibliotecas
 
