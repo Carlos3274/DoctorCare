@@ -1,18 +1,18 @@
 <h1 align="center">
-  <img alt="beauty salon" title="beauty salon" src="/assets/Logo.svg" width="250px" />
+  <img alt="doctor care logo" title="beauty salon" src="/assets/Logo.svg" width="250px" />
 </h1>
 
 <p align="center">
 <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-licença">Licença</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Preview" src=".github/preview.png" width="100%">
+  <img alt="Preview" src="/assets/doctor-care.gif" width="100%">
 </p>
 
 ## 💻 Projeto
