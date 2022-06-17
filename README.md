@@ -12,7 +12,7 @@
 <br>
 
 <p align="center">
-  <img alt="Preview" src="/assets/doctor-care.gif" width="100%">
+  <img alt="Preview" src="/assets/doctor-care.gif" width="222" height="388>
 </p>
 
 ## 💻 Projeto
