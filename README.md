@@ -17,7 +17,7 @@
 
 ## 💻 Projeto
 
-DoctorCare é uma página institucional no formato One Page. Contém as seguintes seções: Header, Navigation, Home, Serviços, Sobre, Contato e Footer
+DoctorCare é uma página institucional no formato One Page. Contém as seguintes seções: Header, Navigation, Home, Serviços, Sobre, Contato e Footer. Responsivo para quaisquer tamanhos de tela!
 
 ## 🚀 Tecnologias
 
