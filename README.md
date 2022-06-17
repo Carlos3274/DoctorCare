@@ -9,11 +9,14 @@
   <a href="#-licença">Licença</a>
 </p>
 
+<h4 align="center"><a href="https://carlos3274.github.io/DoctorCare/">Clique para acessar o projeto</a></h4>
+
 <br>
 
 <p align="center">
   <img alt="Preview" src="/assets/doctor-care.gif" width="100%">
 </p>
+
 
 ## 💻 Projeto
 
