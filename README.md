@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
-- [ScrollRevel](https://scrollrevealjs.org)
+- [ScrollReveal](https://scrollrevealjs.org)
 
 ## 🔖 Layout
 
