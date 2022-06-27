@@ -19,13 +19,26 @@
 
 DoctorCare é uma página institucional no formato One Page. Contém as seguintes seções: Header, Navigation, Home, Serviços, Sobre, Contato e Footer. Responsivo para quaisquer tamanhos de tela!
 
-## 🚀 Tecnologias
+## 🛠️ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML5
+  * Acessbiilidade
+  * Semântico
+  * Código limpo
+
 - CSS3
+  * Display flex
+  * Display grid
+  * Responsividade
+  * Feature mudança de cores
 - JavaScript ES6+
+  * Sidebar
+  * Scroll suave
+  * Animações
+- Figma
+  * Extração dos dados para o código
 
 Bibliotecas:
 
