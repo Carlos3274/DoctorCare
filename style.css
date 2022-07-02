@@ -167,7 +167,11 @@ nav .close-menu {
   position: fixed;
 }
 
-
+#color-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
 
 /*==== MENU-EXPANDED ==============================================*/
 
@@ -477,9 +481,19 @@ footer p {
   margin-bottom: 3.2rem;
 }
 
+footer p a {
+  text-decoration: none;
+  color: var(--brand-beige);
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
 footer .social-links{
   justify-content: flex-start;
 }
+
+
 
 /*==== BACK TO TOP ==============================================*/
 
@@ -555,7 +569,6 @@ footer .social-links{
       
     }
 
-
     nav#navigation .close-menu,
     nav#navigation .open-menu,
     nav#navigation .social-links {
@@ -629,6 +642,8 @@ footer .social-links{
       opacity: 1;
       font-weight: 700;
     }
+
+    
 
     /* mini Animação do nav ------------------ */
 
