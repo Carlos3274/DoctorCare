@@ -168,10 +168,11 @@ nav .close-menu {
 }
 
 #color-button {
-  display: inline-block;
+  display: none;
   width: 30px;
   height: 30px;
 }
+
 
 /*==== MENU-EXPANDED ==============================================*/
 
@@ -179,7 +180,7 @@ nav .close-menu {
   transform: translatey(100%); /* Joga o menu para baixo */ /* Transção de baixo pra cima */
 }
 
-body.menu-expanded{
+body.menu-expanded {
   overflow: hidden;
 }
 
@@ -519,7 +520,7 @@ footer .social-links{
 
 /*==== RESPONSIVO ===============================================*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {   /* TELA PC */
 
   /*==== GERAL ====================================*/
   
@@ -580,6 +581,12 @@ footer .social-links{
       align-items: center;
       justify-content: space-between;
       width: 60%;
+    }
+
+    #color-button {
+      display: none;
+      width: 30px;
+      height: 30px;
     }
 
     nav#navigation .menu ul:nth-child(1) {
