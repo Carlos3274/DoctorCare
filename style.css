@@ -167,6 +167,11 @@ nav .close-menu {
   position: fixed;
 }
 
+#color-button {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
 
 
 /*==== MENU-EXPANDED ==============================================*/
@@ -175,7 +180,7 @@ nav .close-menu {
   transform: translatey(100%); /* Joga o menu para baixo */ /* Transção de baixo pra cima */
 }
 
-body.menu-expanded{
+body.menu-expanded {
   overflow: hidden;
 }
 
@@ -477,9 +482,19 @@ footer p {
   margin-bottom: 3.2rem;
 }
 
+footer p a {
+  text-decoration: none;
+  color: var(--brand-beige);
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
 footer .social-links{
   justify-content: flex-start;
 }
+
+
 
 /*==== BACK TO TOP ==============================================*/
 
@@ -505,7 +520,7 @@ footer .social-links{
 
 /*==== RESPONSIVO ===============================================*/
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {   /* TELA PC */
 
   /*==== GERAL ====================================*/
   
@@ -555,7 +570,6 @@ footer .social-links{
       
     }
 
-
     nav#navigation .close-menu,
     nav#navigation .open-menu,
     nav#navigation .social-links {
@@ -567,6 +581,12 @@ footer .social-links{
       align-items: center;
       justify-content: space-between;
       width: 60%;
+    }
+
+    #color-button {
+      display: none;
+      width: 30px;
+      height: 30px;
     }
 
     nav#navigation .menu ul:nth-child(1) {
@@ -629,6 +649,8 @@ footer .social-links{
       opacity: 1;
       font-weight: 700;
     }
+
+    
 
     /* mini Animação do nav ------------------ */
 

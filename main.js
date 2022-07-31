@@ -71,12 +71,28 @@ function closeMenu() {
     document.body.classList.remove('menu-expanded')  
 }
 
+const buttonColor = document.querySelector('#color-button')
+
+buttonColor.addEventListener('click', changeColor)
+
+function changeColor(event) {
+    event.preventDefault()
+    let docStyle = getComputedStyle(document.documentElement); 
+    let hueStr = docStyle.getPropertyValue('--hue');
+    let hueNumberCurrent = Number.parseInt(hueStr)
+    hueNumberCurrent += 150
+
+    document.documentElement.style.setProperty('--hue', hueNumberCurrent);  
+}
+
+const menu = document.querySelector('.menu')
+const socialLinks = document.querySelector('.social-links')
 
 ScrollReveal({
     origin: 'top',
     distance: '30px',
     duration: '700',
-/* Separar as strings com acento agudo `` permite separa-las melhor(TEMPLATE LITERALS ) */
+
 }).reveal(`
     #home, 
     #home img, 
@@ -88,6 +104,7 @@ ScrollReveal({
     #about,
     #about header,
     #about .content`);
+
 
 
     
