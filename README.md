@@ -38,8 +38,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   * Scroll suave
   * Animações
 - Figma
-  * Extração dos dados para o código
-
+  * Extração do layout para o código
+- Git
+  * Versionamento
+- GitHub
+  * Deploy
+  
 Bibliotecas:
 
 - [Google Fonts](https://fonts.google.com/)
