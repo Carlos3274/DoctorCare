@@ -38,61 +38,54 @@ function activateMenuAtCurrentSection(section) {
   }
 }
 
-
-
-
-
-
-
-
-
 function showNavOnScroll() {
-    const navigation = document.querySelector('nav')
-    if(scrollY > 0 ){
-        navigation.classList.add('scroll')
-    } else{
-        navigation.classList.remove('scroll')
-    }
+  const navigation = document.querySelector('nav')
+  if (scrollY > 0) {
+    navigation.classList.add('scroll')
+  } else {
+    navigation.classList.remove('scroll')
+  }
 }
 
-function showBackToTopButtonOnScroll(){
-    if(scrollY > 550 ){
-        backToTopButton.classList.add('show')
-    } else{
-        backToTopButton.classList.remove('show')
-    }
+function showBackToTopButtonOnScroll() {
+  if (scrollY > 550) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
 }
 
 function openMenu() {
-    document.body.classList.add('menu-expanded')
+  document.body.classList.add('menu-expanded')
 }
 
 function closeMenu() {
-    document.body.classList.remove('menu-expanded')  
+  document.body.classList.remove('menu-expanded')
 }
 
 const buttonColor = document.querySelector('#color-button')
-
+const changeColorMobile = document.querySelector('.change-theme-mobile')
+console.log(changeColorMobile)
 buttonColor.addEventListener('click', changeColor)
+changeColorMobile.addEventListener('click', changeColor)
 
 function changeColor(event) {
-    event.preventDefault()
-    let docStyle = getComputedStyle(document.documentElement); 
-    let hueStr = docStyle.getPropertyValue('--hue');
-    let hueNumberCurrent = Number.parseInt(hueStr)
-    hueNumberCurrent += 150
+  event.preventDefault()
+  let docStyle = getComputedStyle(document.documentElement)
+  let hueStr = docStyle.getPropertyValue('--hue')
+  let hueNumberCurrent = Number.parseInt(hueStr)
+  hueNumberCurrent += 150
 
-    document.documentElement.style.setProperty('--hue', hueNumberCurrent);  
+  document.documentElement.style.setProperty('--hue', hueNumberCurrent)
 }
 
 const menu = document.querySelector('.menu')
 const socialLinks = document.querySelector('.social-links')
 
 ScrollReveal({
-    origin: 'top',
-    distance: '30px',
-    duration: '700',
-
+  origin: 'top',
+  distance: '30px',
+  duration: '700'
 }).reveal(`
     #home, 
     #home img, 
@@ -103,9 +96,4 @@ ScrollReveal({
     #services .card,
     #about,
     #about header,
-    #about .content`);
-
-
-
-    
-
+    #about .content`)
