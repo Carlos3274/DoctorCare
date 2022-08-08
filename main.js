@@ -65,7 +65,7 @@ function closeMenu() {
 
 const buttonColor = document.querySelector('#color-button')
 const changeColorMobile = document.querySelector('.change-theme-mobile')
-console.log(changeColorMobile)
+
 buttonColor.addEventListener('click', changeColor)
 changeColorMobile.addEventListener('click', changeColor)
 
